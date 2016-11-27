@@ -1,3 +1,58 @@
 html{
-	background:#ccc;
+	
+}
+body{
+	margin:0;
+	font-family:Arial;
+	font-size:18px;
+}
+body a{
+	text-decoration:none;
+}
+header{
+	margin:auto;
+}
+.upper-header{
+	background-color:#00a2e8;
+	text-align:center;
+	padding:0 10px;
+}
+#phone{
+	float:left;
+	padding-top:15px;
+}
+.phone-icon{
+	display:inline-block;
+	position:relative;
+	top:15px;
+	background:url("imgs/phone-icon.png") no-repeat;
+	height:56px;
+	width:56px;
+}
+#phone a{
+	font-size:30px;
+	margin-left:10px;
+	color:#fff;
+}
+#phone a:hover{
+	color:#c8eeff;
+}
+.logo{
+	display:inline-block;
+}
+.contact-us{
+	float:right;
+	width:150px;
+	height:113px;
+}
+.contact-us a{
+	display:inline-block;
+	line-height:115px;
+	color:#fff;
+	font-size:25px;
+	width:100%;
+	height:100%;
+}
+.contact-us a:hover{
+	background-color:#4dbded;
 }
