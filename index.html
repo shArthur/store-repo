@@ -4,59 +4,74 @@
 	<title>store</title>
 	<link rel='stylesheet' type='text/css' href='style.css'>
 </head>
-<body class='wrapper'>
-<header>
-	<div class='upper-header'>
-		<div id='phone'>
-			<span class='phone-icon'></span>
-			<a href='tel:+123456789'>+1 (234) 567 89</a>
-		</div>
-		<a class='logo' href='#'>
-			<img src='imgs/logo.png' alt='web e-shop'>
-		</a>
-		<div class='contact-us'> 
-			<a href='#'>Contact us</a>
-		</div>
-	</div>
-	<div class='main-header'>
-		<div id='header-image'></div>
-		<div id='company-name'>
-			<span id='name-text'>Online store</span>
-			<span id='desc-text'>Best prices for your favorite books and music albums</span>
-		</div>
-	</div>
-	<div class='lower-header'>
-		<nav>
-			Cathegory
-			<ul>
-				<li>books</li>
-				<li>music</li>
-			</ul>
-		</nav>
-		<div id='search'>
-			<input type='search'>
-			<div>
-				cathegory
-				<ul>
-					<li>books</li>
-					<li>music</li>
-				</ul>
+<body>
+<div class='wrapper'>
+	<header>
+		<div class='upper-header'>
+			<div class='content-wrap'>
+				<div id='phone'>
+					<span class='phone-icon'></span>
+					<a class='white-text' href='tel:+123456789' >+1 (234) 567 89</a>
+				</div>
+				<a class='logo' href='#'>
+					<img src='imgs/logo.png' alt='web e-shop'>
+				</a>
+				<div class='contact-us'> 
+					<a href='#' class='white-text'>Contact us</a>
+				</div>
 			</div>
 		</div>
-		<a id='card' href='#'>
-			Cart
-		</a>
-	</div>
-</header>
-<section>
-	<div class='content-wrap'>
-		<div class='cathegory-header'></div>
-		<div class='cathegory-items'></div>
-	</div>
-</section>
-<footer>
-	<div></div>
-	<div></div>
-</footer>
+		<div class='main-header'>
+			<div class='content-wrap'>
+				<img id='header-image' src='imgs/header-cover.png' alt='header image'>
+				<div id='company-name'>
+					<span id='name-text'>Online store</span>
+					<span id='desc-text'>Best prices for your favorite books and music albums</span>
+				</div>
+			</div>
+		</div>
+		<div class='lower-header'>
+			<div class='content-wrap'>
+				<nav>
+					Cathegory
+					<ul>
+						<li>books</li>
+						<li>music</li>
+					</ul>
+				</nav>
+				<div id='search'>
+					<input type='search'>
+					<div>
+						cathegory
+						<ul>
+							<li>books</li>
+							<li>music</li>
+						</ul>
+					</div>
+				</div>
+				<a id='card' href='#'>
+					Cart
+				</a>
+			</div>
+		</div>
+	</header>
+	<section id='content-sec'>
+		<div class='content-wrap'>
+			<div class='cathegory-header'></div>
+			<div class='cathegory-items'></div>
+		</div>
+	</section>
+	<footer>
+		<div class='content-wrap'>
+			<a class='logo' href='#'>
+				<img src='imgs/logo.png' alt='web e-shop'>
+			</a>
+			<div id='copyright' class='white-text'>
+				<p>Designed by Arthur</p>
+				<span>Copyright 2016</span>
+			</div>
+		</div>
+	</footer>
+</div>
 </body>
 </html>

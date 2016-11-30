@@ -1,14 +1,29 @@
 html{
-	
+	height:100%;
 }
 body{
+	height:100%;
 	margin:0;
 	font-family:Arial;
 	font-size:18px;
 }
+/*general*/
+.wrapper{
+	position:relative;
+	min-height:100%;
+}
+.content-wrap{
+	margin:auto;
+	width:980px;
+}
+.white-text{
+	color:#fff;
+}
 body a{
 	text-decoration:none;
 }
+/*header part*/
+	/*upper-header*/
 header{
 	margin:auto;
 }
@@ -32,7 +47,7 @@ header{
 #phone a{
 	font-size:30px;
 	margin-left:10px;
-	color:#fff;
+
 }
 #phone a:hover{
 	color:#c8eeff;
@@ -48,7 +63,7 @@ header{
 .contact-us a{
 	display:inline-block;
 	line-height:115px;
-	color:#fff;
+	
 	font-size:25px;
 	width:100%;
 	height:100%;
@@ -56,3 +71,55 @@ header{
 .contact-us a:hover{
 	background-color:#4dbded;
 }
+	/*main header*/
+#header-image{
+	
+}
+#company-name{
+	position:absolute;
+	top:150px;
+	right:550px;
+	width:200px;
+}
+#name-text{
+	display:inline-block;
+	padding-bottom:20px;
+	font-size:30px;
+	font-weight:bold;
+	color:#00a2e8;
+	text-shadow:1px 1px 2px #000;
+}
+#desc-text{
+	color:#fff;
+	text-shadow:1px 1px 2px #000;
+}
+/*content part*/
+#content-sec{
+	padding-bottom:113px;
+}
+
+/*footer part*/
+footer{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	width:100%;
+	height:113px;
+	background-color:#00a2e8;
+}
+#copyright{
+	float:right;
+	padding-top:4%;
+}
+#copyright p{
+	margin:0;
+	padding-bottom:2%;
+}
+
+
+
+
+
+
+
