@@ -32,24 +32,21 @@
 		</div>
 		<div class='lower-header'>
 			<div class='content-wrap'>
-				<nav>
+				<nav id='menu'>
 					Cathegory
-					<ul>
+					<ul id='hidden-menu'>
 						<li>books</li>
 						<li>music</li>
 					</ul>
 				</nav>
 				<div id='search'>
-					<input type='search'>
-					<div>
-						cathegory
-						<ul>
-							<li>books</li>
-							<li>music</li>
-						</ul>
-					</div>
+					<input type='search' placeholder='what would you like...'>
+					<select name='cathegory' id='search-cathegory'>
+						<option value='books'>Books</option>
+						<option value='music'>Music</option>
+					</select>
 				</div>
-				<a id='card' href='#'>
+				<a id='cart' href='#'>
 					Cart
 				</a>
 			</div>
