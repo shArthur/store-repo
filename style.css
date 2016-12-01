@@ -99,12 +99,37 @@ header{
 	/*lower header*/
 .lower-header{
 	height:50px;
-	background:#4dbded;
+	background:#00a2e8;
 	text-align:center;
 }
 #menu{
 	float:left;
 	padding:15px;
+	position:relative;
+}
+#menu:hover{
+	background:#4dbded;
+}
+#menu #hidden-menu{
+	padding:0;
+	position:absolute;
+	left:0;
+	top:32px;
+	width:100%;
+	display:none;
+}
+#menu #hidden-menu li{
+	padding-top:5px;
+	background:#4dbded;
+}
+#menu #hidden-menu li a{
+	white-space:no-wrap;
+	display:block;
+	border-bottom:1px solid #fff;
+	
+}
+#menu:hover #hidden-menu{
+	display:block;
 }
 #cart{
 	float:right;
